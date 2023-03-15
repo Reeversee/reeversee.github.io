@@ -8,6 +8,16 @@ body {
   font-family: "ROBOTO", sans-serif;
 }
 
+a {
+  color:#ff0266;
+}
+
+a:hover {
+  color: #ffffff;
+  background: #ff0266;
+  transition: all 0.5s ease;  
+}
+
 .nav,
 .slider {
   display: flex;
