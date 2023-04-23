@@ -5,17 +5,24 @@
 }
 
 body {
-  font-family: "ROBOTO", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 a {
   color:#ff0266;
+  transition: all 0.3s ease;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 a:hover {
   color: #ffffff;
   background: #ff0266;
-  transition: all 0.5s ease;  
+  transition: all 0.3s ease;
+}
+
+h4 {
+  color: #faebd7;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .nav,
@@ -42,6 +49,7 @@ a:hover {
   transition: all 0.3s ease;
   z-index: 3;
 }
+
 h1:hover {
   transform: translate3d(0, -10px, 22px);
   color: #ffffff;
@@ -50,7 +58,7 @@ h1:hover {
 .slider h2 {
   font-size: 2vw;
   letter-spacing: 0.3rem;
-  font-family: "ROBOTO", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   color: #faebd7;
   z-index: 4;
@@ -58,7 +66,7 @@ h1:hover {
 h3.span {
   font-size: 2vw;
   letter-spacing: 0.7em;
-  font-family: "ROBOTO", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   color: #faebd7;
   z-index: 4;

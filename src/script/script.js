@@ -12,7 +12,7 @@ window.onload = function () {
 };
 const particles = Particles.init({
   selector: ".background",
-  color: ["#03dac6", "#ff0266", "#000000"],
+  color: ["#ff0022", "#ff0266", "#000000"],
   connectParticles: true,
   responsive: [
     {
