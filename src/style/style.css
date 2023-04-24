@@ -9,14 +9,14 @@ body {
 }
 
 a {
-  color:#ff0266;
+  color:#c4ff02;
   transition: all 0.3s ease;
   font-family: "Josefin Sans", sans-serif;
 }
 
 a:hover {
   color: #ffffff;
-  background: #ff0266;
+  background: #2e3b00;
   transition: all 0.3s ease;
 }
 
@@ -45,7 +45,7 @@ h4 {
   margin: 0;
   padding-bottom: 0.5rem;
   letter-spacing: 0.5rem;
-  color: #ff0266;
+  color: #c4ff02;
   transition: all 0.3s ease;
   z-index: 3;
 }
@@ -72,7 +72,7 @@ h3.span {
   z-index: 4;
 }
 span:hover {
-  color: #ff0266;
+  color: #c4ff02;
   font-weight: 500;
   font-size: 2.2vw;
 }
@@ -109,7 +109,7 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  color: #ff0266;
+  color: #c4ff02;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 2vw;
@@ -117,7 +117,7 @@ a {
 
 .nav-tab:hover {
   color: #ffffff;
-  background: #ff0266;
+  background: #2e3b00;
   transition: all 0.5s ease;
 }
 
@@ -187,8 +187,8 @@ a {
 
 @-webkit-keyframes loading {
   to {
-    text-shadow: 20px 0 70px #ff0266;
-    color: #ff0266;
+    text-shadow: 20px 0 70px #c4ff02;
+    color: #c4ff02;
   }
 }
 .loader span:nth-child(2) {
