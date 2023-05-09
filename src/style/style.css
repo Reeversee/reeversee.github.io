@@ -25,6 +25,26 @@ h4 {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.Link {
+  font-family: "Josefin Sans", sans-serif;
+  color: #c4ff02;
+  transition: all 0.3s ease;
+  z-index: 3;
+  background-color: #2e3b00;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.Link:hover {
+  font-family: "Josefin Sans", sans-serif;
+  color: #c4ff02;
+  transition: all 0.3s ease;
+  z-index: 3;
+  background-color: #1b2200;
+  border-radius: 25px;
+  padding: 5px;
+}
+
 .nav,
 .slider {
   display: flex;
@@ -41,18 +61,20 @@ h4 {
 .nav h1,
 .slider h1 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 5vw;
-  margin: 0;
-  padding-bottom: 0.5rem;
-  letter-spacing: 0.5rem;
   color: #c4ff02;
   transition: all 0.3s ease;
   z-index: 3;
+  background-color: #2e3b00;
+  border-radius: 25px;
+  margin: 15px;
+  padding: 10px;
 }
 
 h1:hover {
   transform: translate3d(0, -10px, 22px);
   color: #ffffff;
+  background-color: #1e1f26;
+  border-radius: 25px;
 }
 
 .slider h2 {
@@ -110,9 +132,9 @@ a {
   align-items: center;
   flex: 1;
   color: #c4ff02;
-  letter-spacing: 0.1rem;
   transition: all 0.5s ease;
-  font-size: 2vw;
+  border-radius: 15px;
+  margin: 5px;
 }
 
 .nav-tab:hover {
