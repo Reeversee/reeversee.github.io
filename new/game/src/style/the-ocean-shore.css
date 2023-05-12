@@ -1,3 +1,40 @@
+@media screen and (max-width: 1280px) { 
+    div.nav-bar 
+    {
+        width: 1200px;
+    } 
+} 
+@media screen and (max-width: 1140px) { 
+    div.nav-bar 
+    {
+        width: 1024px;
+    } 
+} 
+@media screen and (max-width: 992px) { 
+    div.nav-bar 
+    {
+        width: 300px;
+        height: 70px;
+    }
+    div.re_logo 
+    {
+        width: 400px;
+        height: 70px;
+    }
+    div.product-info-block 
+    {
+        width: 300px;
+    }
+    div.news-feed
+    {
+        width: 325px;
+    }
+    div.news-entry 
+    {
+        width: 295px;
+    }
+}
+
 body {
     background-color: #00262e;
     font-family: 'Poppins';
@@ -7,8 +44,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: auto;
-    height: auto;
 }
 
 .nav-bar {
@@ -23,6 +58,11 @@ body {
     position: fixed;
     left: auto;
     z-index: 10;
+}
+
+.re_logo {
+    width: 500px;
+    height: 100px;
 }
 
 .product-info-block {
