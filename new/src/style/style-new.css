@@ -1,4 +1,60 @@
-
+@media screen and (max-width: 1280px) { 
+    div.product-info-block 
+    {
+        width: 800px;
+    }
+    div.news-feed
+    {
+        width: 800px;
+    }
+    div.news-entry 
+    {
+        width: 770px;
+    }
+} 
+@media screen and (max-width: 1140px) { 
+    div.product-info-block 
+    {
+        width: 800px;
+    }
+    div.news-feed
+    {
+        width: 800px;
+    }
+    div.news-entry 
+    {
+        width: 770px;
+    }
+} 
+@media screen and (max-width: 992px) { 
+    div.nav-bar 
+    {
+        width: 380px;
+        height: 70px;
+    }
+    a
+    {
+        font-size: 20px;
+    }
+    div.product-news-block 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    div.product-info 
+    {
+        width: 360px;
+    }
+    div.product-info-h 
+    {
+        width: 360px;
+    }
+    div.product-card 
+    {
+        width: 300px;
+    }
+}
 /* system styles end */
 
 body {
