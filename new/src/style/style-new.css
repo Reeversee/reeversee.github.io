@@ -1,32 +1,143 @@
+@media screen and (max-width: 1400px) { 
+    div.nav-bar 
+    {
+        width: 500px;
+    }
+    a
+    {
+        font-size: 30px;
+    }
+    div.product-news-block 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    div.product-info 
+    {
+        width: 800px;
+    }
+    div.product-info-h 
+    {
+        width: 800px;
+    }
+    div.product-card 
+    {
+        width: 750px;
+    }
+    div.news 
+    {
+        width: 360px;
+    }
+    div.news-h
+    {
+        width: 360px;
+    }
+    div.news-card
+    {
+        width: 300px;
+    }
+    div.news-header-empty 
+    {
+        font-size: 100px;
+    }
+    
+    div.product-header-empty {
+        font-size: 55px;
+    }
+} 
 @media screen and (max-width: 1280px) { 
-    div.product-info-block 
+    div.nav-bar 
+    {
+        width: 500px;
+    }
+    a
+    {
+        font-size: 30px;
+    }
+    div.product-news-block 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    div.product-info 
     {
         width: 800px;
     }
-    div.news-feed
+    div.product-info-h 
     {
         width: 800px;
     }
-    div.news-entry 
+    div.product-card 
     {
-        width: 770px;
+        width: 750px;
     }
-} 
-@media screen and (max-width: 1140px) { 
-    div.product-info-block 
+    div.news 
     {
-        width: 800px;
+        width: 360px;
     }
-    div.news-feed
+    div.news-h
     {
-        width: 800px;
+        width: 360px;
     }
-    div.news-entry 
+    div.news-card
     {
-        width: 770px;
+        width: 300px;
     }
-} 
-@media screen and (max-width: 992px) { 
+    div.news-header-empty 
+    {
+        font-size: 100px;
+    }
+    
+    div.product-header-empty 
+    {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 980px) { 
+    div.nav-bar 
+    {
+        width: 500px;
+    }
+    a
+    {
+        font-size: 30px;
+    }
+    div.product-news-block 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    div.product-info 
+    {
+        width: 420px;
+    }
+    div.product-info-h 
+    {
+        width: 420px;
+    }
+    div.product-card 
+    {
+        width: 370px;
+    }
+    div.news 
+    {
+        width: 420px;
+    }
+    div.news-h
+    {
+        width: 420px;
+    }
+    div.news-card
+    {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 680px) { 
     div.nav-bar 
     {
         width: 380px;
@@ -71,6 +182,14 @@
 
 body {
     background-color: #001c22;
+}
+
+.news-header-empty {
+    font-size: 30px;
+}
+
+.product-header-empty {
+    font-size: 55px;
 }
 
 .RE_Logo {
@@ -136,7 +255,6 @@ a:hover {
     width: 670px;
     height: 650px;
     margin: 15px;
-    box-shadow: 5px 5px 5px #1a1a1a;
 }
 
 .product-info-h {
@@ -199,7 +317,6 @@ a:hover {
     width: 670px;
     height: 650px;
     margin: 15px;
-    box-shadow: 5px 5px 5px #1a1a1a;
 }
 
 .news-h {
@@ -228,6 +345,11 @@ a:hover {
     display: block;
     justify-content: center;
     color: #959595;
+}
+
+.post-link {
+    font-size: 10px;
+    margin: none;
 }
 
 .news-tags {
