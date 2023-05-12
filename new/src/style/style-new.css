@@ -54,6 +54,18 @@
     {
         width: 300px;
     }
+    div.news 
+    {
+        width: 360px;
+    }
+    div.news-h
+    {
+        width: 360px;
+    }
+    div.news-card
+    {
+        width: 300px;
+    }
 }
 /* system styles end */
 
