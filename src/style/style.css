@@ -31,7 +31,7 @@ h4 {
   transition: all 0.3s ease;
   z-index: 3;
   background-color: #2e3b00;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 5px;
 }
 
@@ -41,7 +41,7 @@ h4 {
   transition: all 0.3s ease;
   z-index: 3;
   background-color: #1b2200;
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 5px;
 }
 
@@ -64,7 +64,6 @@ h4 {
   color: #c4ff02;
   transition: all 0.3s ease;
   z-index: 3;
-  background-color: #2e3b00;
   border-radius: 25px;
   margin: 15px;
   padding: 10px;

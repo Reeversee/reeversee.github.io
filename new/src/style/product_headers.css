@@ -1,0 +1,55 @@
+.product-header_ST {
+    font-size: 25px;
+    color: #1400ff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.product-header_ST:hover {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.product-header_RL {
+    font-size: 25px;
+    color: #c4ff02;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.product-header_RL:hover {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.product-header_DM {
+    font-size: 25px;
+    color: #ff6302;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.product-header_DM:hover {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.product-header_NSY {
+    font-size: 25px;
+    color: linear-gradient(#e66465, #9198e5);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.product-header_NSY:hover {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
