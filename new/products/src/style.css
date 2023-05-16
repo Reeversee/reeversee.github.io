@@ -87,13 +87,13 @@
     transition: all 0.3s ease;
 }
 
-.nav-bar:hover {
+/* .nav-bar:hover {
     transition: all 0.3s ease;
     border-radius: 25px;
     border: 5px solid #deff73;
     width: 500px;
     height: 50px;
-}
+} */
 
 html,
 body {
@@ -109,8 +109,6 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 25px;
-    width: 500px;
-    height: 500px;
 }
 
 .rg_header {
@@ -160,7 +158,7 @@ body {
 .rg_footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     flex-direction: row;
 }
 
@@ -172,7 +170,7 @@ body {
 
 .rg_nav-footer {
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -191,6 +189,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
+    text-align: center;
 }
 
 .footer-link-tw:hover {
@@ -208,6 +207,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
+    text-align: center;
 }
 
 .footer-link-yt:hover {
@@ -225,6 +225,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
+    text-align: center;
 }
 
 .footer-link-vk:hover {

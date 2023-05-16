@@ -1,3 +1,11 @@
+@media screen and (max-width: 680px) {
+    div.news-btn-b
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 html,
 body {
     font-family: 'Poppins';
@@ -8,7 +16,7 @@ body {
 
 .news-h-b {
     background-color: #002f39;
-    border-radius: 50px;
+    border-radius: 25px;
     transition: all 0.3s ease;
     margin: 25px;
 }
@@ -20,7 +28,7 @@ body {
 
 .news-t-b {
     background-color: #002f39;
-    border-radius: 50px;
+    border-radius: 25px;
     padding: 5px;
     transition: all 0.3s ease;
     margin: 15px;
@@ -45,5 +53,20 @@ body {
 }
 
 .news-btn-b {
+    margin: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer-news {
+    background-color: #002f39;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    width: auto;
+    border-radius: 25px;
     margin: 15px;
 }
