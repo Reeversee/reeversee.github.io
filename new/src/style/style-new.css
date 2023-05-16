@@ -182,6 +182,7 @@
 
 body {
     background-color: #001c22;
+    font-family: 'Poppins';
 }
 
 .news-header-empty {
@@ -226,6 +227,18 @@ a {
 a:hover {
     transition: all 0.3s ease;
     color: #003944;
+}
+
+.fail,
+.dev {
+    background-color: #002f39;
+    color: #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 ::-webkit-scrollbar {
