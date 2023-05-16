@@ -235,6 +235,7 @@ a:hover {
     background-color: #002f39;
     color: #fff;
     border-radius: 25px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-content: center;
