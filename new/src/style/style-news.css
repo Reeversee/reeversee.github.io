@@ -1,0 +1,38 @@
+.news-f {
+    background-color: #002f39;
+    border: solid 5px #00262e;
+    border-radius: 25px;
+    width: 1860px;
+    height: 780px;
+    margin: 15px;
+    margin-right: 3px;
+}
+
+.news-h-f {
+    width: 1850px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    overflow: auto;
+}
+
+.news-card-f {
+    background-color: #00262e;
+    width: auto;
+    height: 150px, auto;
+    margin: 10px;
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.news-header {
+    font-size: 40px;
+}
+
+.news-text {
+    font-size: 30px;
+}
