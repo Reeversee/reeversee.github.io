@@ -92,10 +92,10 @@ body {
     border-radius: 10px;
     transition: all 0.3s ease;
     padding: 10px;
+    margin: 5px;
     font-family: 'NT-Sans-Bold';
     text-decoration: none;
-    width: 90px;
-    height: 50px;
+    text-align: center;
 }
 
 .rg_button:hover {
@@ -103,4 +103,25 @@ body {
     background-color: #c4ff02;
     padding: 15px;
     font-family: 'NT-Sans-Regular';
+}
+
+.rg_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
+}
+
+.rg_footer_h {
+    color: #fff;
+    font-family: 'NT-Sans-Bold';
+    text-align: center;
+}
+
+.rg_nav-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
