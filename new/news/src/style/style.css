@@ -1,12 +1,15 @@
-@media screen and (max-width: 680px) {
+@media only screen and (max-width: 480px) 
+{
     div.news-btn-b
     {
         display: flex;
         flex-direction: column;
     }
+    h1 {
+        font-size: 35px;
+    }
 }
 
-html,
 body {
     font-family: 'Poppins';
     background-color: #001c22;
@@ -45,11 +48,12 @@ body {
 }
 
 .news-h1 {
-    font-size: 40px;
+    font-size: 30px;
+    padding: 5px;
 }
 
 .news-tp {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .news-btn-b {
