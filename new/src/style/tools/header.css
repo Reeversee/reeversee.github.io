@@ -28,6 +28,23 @@
     transition: all 0.3s ease;
 }
 
+.nav-btn-s-rg {
+    color: #c4ff02;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.nav-btn-s-rg:hover {
+    background-color: #c4ff02;
+    color: #1d1d1d;
+    padding: 5px;
+    border-radius: 10px;
+    height: 75px;
+    transition: all 0.3s ease;
+}
+
 li {
     margin: 5px;
     list-style: none;
