@@ -1,6 +1,8 @@
 body {
     background-color: #001c22;
+    color: #fff;
     font-family: 'Poppins';
+    text-align: center;
 }
 
 .notification {

@@ -56,11 +56,6 @@
     }
 }
 
-body {
-    background-color: #00262e;
-    font-family: 'Poppins';
-}
-
 .root {
     display: flex;
     align-items: center;

@@ -48,12 +48,6 @@
     }
 }
 
-html,
-body {
-    background-color: #001c22;
-    font-family: 'Poppins';
-}
-
 .news-block {
     display:flex;
     flex-direction: row;
