@@ -18,6 +18,20 @@ body {
     align-self: center;
 }
 
+.fail,
+.dev {
+    background-color: #002f39;
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 .btn {
     font-size: 15px;
     background-color: #001c22;
