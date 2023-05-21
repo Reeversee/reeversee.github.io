@@ -28,7 +28,6 @@ a:hover {
 
 .product-info {
     background-color: #002f39;
-    border: solid 5px #00262e;
     border-radius: 25px;
     width: 900px;
     height: 650px;
@@ -45,8 +44,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     overflow: auto;
-    height: 650px;
-    width: 895px;
+    height: 640px;
+    width: 885px;
 }
 
 .product-text {
@@ -90,7 +89,6 @@ a:hover {
 
 .news {
     background-color: #002f39;
-    border: solid 5px #00262e;
     border-radius: 25px;
     width: 900px;
     height: 650px;
@@ -107,8 +105,9 @@ a:hover {
     justify-content: center;
     align-items: center;
     overflow: auto;
-    height: 650px;
-    width: 895px;
+    border-radius: 25px;
+    height: 640px;
+    width: 880px;
 }
 
 .news-header {
