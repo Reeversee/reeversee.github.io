@@ -1,15 +1,3 @@
-@media only screen and (max-width: 480px) 
-{
-    div.news-btn-b
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    h1 {
-        font-size: 35px;
-    }
-}
-
 .news-h-b {
     background-color: #002f39;
     border-radius: 25px;

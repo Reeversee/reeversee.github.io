@@ -1,58 +1,5 @@
 /* system styles */
 
-@media screen and (max-width: 1400px) { 
-    div.rg_img
-    {
-        width: 250px;
-        height: 250px;
-    }
-} 
-@media screen and (max-width: 1280px) { 
-    div.rg_img
-    {
-        width: 250px;
-        height: 250px;
-    }
-}
-
-@media screen and (max-width: 980px) { 
-    div.nav-bar 
-    {
-        width: 350px;
-    }
-    div.rg_img
-    {
-        width: 250px;
-        height: 250px;
-    }
-}
-
-@media screen and (max-width: 700px) { 
-    div.nav-bar 
-    {
-        width: 350px;
-    }
-    div.rg_header_nb 
-    {
-        font-size: 30px;
-    }
-    div.rg_img 
-    {
-        width: 250px;
-        height: 250px;
-    }
-}
-
-@font-face {
-    font-family: 'NT-Sans-Bold';
-    src: url(fonts/NTSomic-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'NT-Sans-Regular';
-    src: url(fonts/NTSomic-Regular.ttf);
-}
-
 ::-webkit-scrollbar {
     width: 15px;
 }

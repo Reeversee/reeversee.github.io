@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NT-Sans-Bold';
+    src: url(../../fonts/NTSomic-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'NT-Sans-Regular';
+    src: url(../../fonts/NTSomic-Regular.ttf);
+}
