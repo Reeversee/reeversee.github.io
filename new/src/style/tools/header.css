@@ -22,7 +22,7 @@
 .nav-btn:hover {
     background-color: #fff;
     color: #1d1d1d;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     height: 75px;
     transition: all 0.3s ease;
@@ -48,4 +48,11 @@
 li {
     margin: 5px;
     list-style: none;
+}
+
+li.active a {
+    background-color: #fff;
+    color: #1d1d1d;
+    border-radius: 25px;
+    padding: 5px;
 }
