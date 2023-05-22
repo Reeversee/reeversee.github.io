@@ -336,6 +336,16 @@
     }
 }
 /* storm page */
+/* nsy page */
+@media screen and (max-width: 680px) {
+    div.rg-bg {
+        width: auto;
+    }
+    div.line {
+        width: 300px;
+    }
+}
+/* nsy page */
 /* rg page */
 @media screen and (max-width: 1400px) { 
     div.rg_img

@@ -110,27 +110,12 @@ a:hover {
     width: 880px;
 }
 
-.news-header {
-    font-size: 15px;
+.r-header {
     color: #fff;
-    text-align: center;
 }
 
-.news-text {
-    font-size: 10px;
-    text-align: center;
-    display: block;
-    justify-content: center;
+.r-text {
     color: #959595;
-}
-
-.post-link {
-    font-size: 10px;
-    margin: none;
-}
-
-.news-tags {
-    font-size: 5px;
 }
 
 .news-card {
