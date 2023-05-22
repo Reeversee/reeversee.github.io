@@ -37,7 +37,7 @@ RewriteCond %{REQUEST_fileNAME} !-d
 RewriteCond %{REQUEST_fileNAME} !-f
 RewriteRule (.*) /$1.html [L]
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
-RewriteRule ^index\.html$ https://reeversee.github.io/ [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /home\.html\ HTTP/
+RewriteRule ^home\.html$ https://reeversee.github.io/ [R=301,L]
 
-Redirect 301 /index https://reeversee.github.io
+Redirect 301 /home https://reeversee.github.io
