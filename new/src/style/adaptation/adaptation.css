@@ -181,6 +181,10 @@
     h1.news-header-empty {
         font-size: 40px;
     }
+    iframe.frame_footer {
+        width: 300px;
+        height: 400px;
+    }
 }
 /* home page */
 /* news page */

@@ -3,7 +3,7 @@
 footer {
     text-align: center;
     padding-top: 70px;
-    text-decoration: none;
+    font-family: 'Poppins';
 }
 
 .re-footer {
@@ -80,6 +80,27 @@ footer {
 
 h3 {
     color: #002f39;
+}
+
+.web_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.web_h {
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.bblckcherya {
+    color: #002f39;
+    transition: all 0.3s ease;
+}
+
+.bblckcherya:hover {
+    color: #00262e;
 }
 
 /* footer styles end */
