@@ -21,7 +21,7 @@ footer {
     padding: 5px;
     border-radius: 15px;
     text-decoration: none;
-    color: #fff;
+    color: #989898;
     transition: all 0.3s ease;
 }
 
@@ -38,7 +38,7 @@ footer {
 
 .footer-link-tw {
     transition: all 0.3s ease;
-    color: #fff;
+    color: #989898;
     font-size: 20px;
     text-decoration: none;
 }
@@ -52,7 +52,7 @@ footer {
 
 .footer-link-yt {
     transition: all 0.3s ease;
-    color: #fff;
+    color: #989898;
     font-size: 20px;
     text-decoration: none;
 }
@@ -66,7 +66,7 @@ footer {
 
 .footer-link-vk {
     transition: all 0.3s ease;
-    color: #fff;
+    color: #989898;
     font-size: 20px;
     text-decoration: none;
 }
@@ -76,6 +76,10 @@ footer {
     color: #4C75A3;
     font-size: 20px;
     text-decoration: none;
+}
+
+h3 {
+    color: #002f39;
 }
 
 /* footer styles end */
