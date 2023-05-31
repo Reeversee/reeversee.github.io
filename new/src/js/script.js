@@ -1,5 +1,17 @@
-if (top.location.search=="") {
-    pass = prompt('Введите пароль');
-    if (pass=='testpage050321')
-    { alert('Пароль принят') } else { alert('Пароль непринят!'), top.location.href="notifications/fail.html" }
-};
+function getWebSiteLatestVersion() {     
+    var xmlHttp = new XMLHttpRequest(); 
+    var requestLink = "https://api.github.com/repos/Reeversee/reeversee.github.io/releases/latest"; 
+    xmlHttp.open("GET", requestLink, false); 
+    xmlHttp.send(null); 
+    var releaseInfo = JSON.parse(xmlHttp.responseText); 
+    return releaseInfo.tag_name 
+}
+
+function getReverseGramLatestVersion() {     
+    var xmlHttp = new XMLHttpRequest(); 
+    var requestLink = "https://api.github.com/repos/Reeversee/reverseGram/releases/latest"; 
+    xmlHttp.open("GET", requestLink, false); 
+    xmlHttp.send(null); 
+    var releaseInfo = JSON.parse(xmlHttp.responseText); 
+    return releaseInfo.tag_name 
+}

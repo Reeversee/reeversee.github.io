@@ -92,6 +92,8 @@ h3 {
 .web_h {
     margin: 5px;
     transition: all 0.3s ease;
+    color: #002f39;
+    font-family: 'Poppins';
 }
 
 .bblckcherya {

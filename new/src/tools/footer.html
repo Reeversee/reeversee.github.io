@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style/tools/footer.css">
+    <script src="../js/script.js"></script>
 </head>
 <body>
     <footer>
@@ -54,9 +55,12 @@
                 </div>
             </div>
             <div class="web_info">
-                <h3 class="web_h">
-                    version: <a class="bblckcherya" href="https://github.com/Reeversee/reeversee.github.io/releases/tag/2.1.0-beta">2.1.0-beta</a>
-                </h3>
+                <div class="web_h" id="version">
+                    <script>
+                        var version = getWebSiteLatestVersion();
+                        document.getElementById("version").innerHTML = 'version - ' + version;
+                    </script>
+                  </div>
                 <h3 class="web_h">
                     made by <a class="bblckcherya" href="https://t.me/CherryMerryy">bublickk</a>
                 </h3>
