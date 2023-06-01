@@ -361,6 +361,11 @@
     div.info-right {
         width: 300px;
     }
+    div.info-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     h1.head {
         font-size: 15px;
     }

@@ -54,6 +54,12 @@ p {
     align-items: center;
 }
 
+.info-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .b {
     padding: 5px;
     margin: 10px;
