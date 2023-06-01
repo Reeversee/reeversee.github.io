@@ -361,6 +361,9 @@
     div.info-right {
         width: 300px;
     }
+    h1.head {
+        font-size: 15px;
+    }
     img.ss-img {
         width: 150px !important;
         height: 200px !important;
