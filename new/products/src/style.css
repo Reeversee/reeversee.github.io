@@ -33,6 +33,10 @@ h1 {
     text-align: center;
 }
 
+.head {
+    font-size: 15px;
+}
+
 p {
     color: #deff73;
 }
