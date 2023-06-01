@@ -56,7 +56,8 @@ p {
 
 .b {
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
+    border: solid 5px #353925;
     border-radius: 25px;
     background-color: #1a1a1a;
     display: flex;
@@ -65,8 +66,18 @@ p {
 }
 
 .d-img {
+    margin: 10px;
+    border: solid 5px #353925;
     border-radius: 25px;
     width: 500px !important;
+}
+
+.ss-img {
+    border-radius: 25px;
+    border: solid 5px #353925;
+    width: 320px !important;
+    height: 550px !important;
+    margin: 10px;
 }
 
 .text-content {
@@ -76,7 +87,7 @@ p {
 }
 
 .note {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     color: #353925;
 }
