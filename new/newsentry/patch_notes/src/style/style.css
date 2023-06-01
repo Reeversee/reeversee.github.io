@@ -1,7 +1,12 @@
+body {
+    font-family: 'Source sans pro';
+}
+
 .ss {
     width: 800px !important;
     height: 400px !important;
     border-radius: 25px;
+    border: solid 2px #1400ff;
 }
 
 .pn-u {
