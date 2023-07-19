@@ -29,5 +29,5 @@ function getWebSiteInfo() {
     var version = getWebSiteLatestVersion();
     var body = getWebSiteBody();
     var author = getWebSiteAuthor();
-    document.getElementById("version_body_author").innerHTML = 'v' + version + ' Changelog: ' + body + ' ' + 'Committed by ' + author;
+    document.getElementById("version_body_author").innerHTML = '| v' + version + ' | Changelog: ' + body + ' | ' + 'Committed by ' + author + ' |';
 }

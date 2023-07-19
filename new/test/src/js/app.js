@@ -1,5 +1,5 @@
 const select = document.querySelector('select');
-const allLang = ['en', 'ru' /*, 'ua', 'by' */];
+const allLang = ['en', 'ru', 'ua' /*, 'by' */];
 
 select.addEventListener('change', changeURLLanguage);
 
