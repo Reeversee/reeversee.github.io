@@ -10,6 +10,12 @@
     }
 }
 
+@media screen and (max-width: 420px) {
+    header {
+        font-size: 13px !important;
+    }
+}
+
 body {
     background: #1a1a1a;
     font-family: 'Fira Mono', monospace;
