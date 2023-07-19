@@ -57,7 +57,8 @@ select {
     border-radius: 5px;
 }
 
-p {
+.text-p,
+.lng-about_us_desc {
     background-color: #00000040;
     color: #fff;
     font-family: 'Fira Mono', monospace;
@@ -67,7 +68,8 @@ p {
     transition: 0.3s;
 }
 
-p:hover {
+.text-p:hover,
+.lng-about_us_desc:hover {
     color: greenyellow;
     padding: 15px;
     transition: 0.3s;
@@ -80,6 +82,11 @@ p:hover {
 .terminal-text {
     color: #fff;
     font-family: 'Fira Mono', monospace;
+}
+
+.git {
+  font-family: 'Fira Mono', monospace;
+  color: #fff;
 }
 
 /* team members styles */
@@ -181,7 +188,8 @@ p:hover {
 .about,
 .projects,
 .team,
-.contacts {
+.contacts,
+.website_info {
     background-color: #202020;
     border-radius: 10px;
     padding: 10px;

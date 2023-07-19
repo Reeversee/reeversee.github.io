@@ -27,6 +27,8 @@
         <a class="lng-contacts" href="#contacts">Contacts</a>
     </header>
     <div class="blocks">
+        <script src="src/js/projectsInfo/stormInfo.js"></script>
+        <script src="src/js/projectsInfo/launcherInfo.js"></script>
         <div class="about" id="about">
             <div class="terminal">
                 <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ about_us.txt </div>
@@ -40,7 +42,7 @@
                     <a>
                         <img class="listpic" src="src/img/Logo/TheOceanShore_MiniLogo.png"></img>
                         <div class="listinfo">
-                            <div class="listname">The Ocean Shore | Game</div>
+                            <div class="listname" id="storm_version">The Ocean Shore | Game |<script>getStormInfo()</script></div>
                             <div class="lng-storm_desc"></div>
                         </div>
                         <div class="actbtns">
@@ -50,7 +52,7 @@
                     <a>
                         <img class="listpic" src="src/img/Logo/Reverse_Launcher.png"></img>
                         <div class="listinfo">
-                            <div class="listname">Reverse Launcher | App</div>
+                            <div class="listname" id="launcher_version">Reverse Launcher | App<script>getLauncherInfo()</script></div>
                             <div class="lng-launcher_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus asperiores accusamus nulla? Officiis delectus aut enim soluta hic libero nobis quae nemo excepturi, corporis numquam. In inventore minima dolorem?</div>
                         </div>
                         <div class="actbtns">
@@ -148,13 +150,13 @@
 </body>
 <footer>
     <div class="website_info">
-        <p class="version_text" id="version">
+        <p class="text-p">
+            Site info:
+        </p>
+        <p class="text-p" id="version_body_author">
             <script>
-                var version = getWebSiteLatestVersion();
-                document.getElementById("version").innerHTML = 'v' + version;
-            </script><br>
-            made by bublickk🦦<br>
-            <a class="lng-sourcecode" href="https://github.com/Reeversee/reeversee.github.io/">Source code available on GitHub</a>
+                getWebSiteInfo()
+            </script>
         </p>
     </div>
 </footer>
