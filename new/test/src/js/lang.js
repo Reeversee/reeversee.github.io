@@ -55,4 +55,8 @@ const LangArray = {
         "ru": "Дев & владелец паблика 'ОКОКА'",
         "en": "Dev",
     },
+    "sourcecode" : {
+        "ru": "Исходный код доступен на GitHub",
+        "en": "Source code available on GitHub",
+    },
 }

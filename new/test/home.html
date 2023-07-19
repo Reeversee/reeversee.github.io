@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="src/style/fonts.css">
     <link rel="stylesheet" href="src/style/scrollbar.css">
     <!-- styles -->
+    <script src="src/js/websiteInfo.js"></script>
 </head>
 <body>
     <header>
         <div class="lang">
             <select class="change-lang">
-                <option value="ru">Russian</option>
-                <option value="en" selected>English</option>
+                <option value="ru">RU</option>
+                <option value="en" selected>EN</option>
             </select>
         </div>
         <a class="lng-about_us" href="#about">About us</a>
@@ -141,4 +142,16 @@
     <script src="src/js/lang.js"></script>
     <script src="src/js/app.js"></script>
 </body>
+<footer>
+    <div class="website_info">
+        <p class="version_text" id="version">
+            <script>
+                var version = getWebSiteLatestVersion();
+                document.getElementById("version").innerHTML = 'v' + version;
+            </script><br>
+            made by bublickk🦦<br>
+            <a class="lng-sourcecode" href="https://github.com/Reeversee/reeversee.github.io/">Source code available on GitHub</a>
+        </p>
+    </div>
+</footer>
 </html>
