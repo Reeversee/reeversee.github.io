@@ -24,12 +24,12 @@ const LangArray = {
         "en": "We, Reverse, develop various software as well as games. At the moment we are developing several projects. You can follow all the processes in our social networks in the #contacts tab.",
     },
     "storm_desc" : {
-        "ru": "тест",
-        "en": "test",
+        "ru": "Мультиплеерный шутер разработанный на игровом движке Unreal Engine 5.2",
+        "en": "Multiplayer shooter developed on Unreal Engine 5.2 engine",
     },
     "launcher_desc" : {
-        "ru": "l_тест",
-        "en": "L_test",
+        "ru": "Наш собственный лаунчер созданный для удобного скачивания наших проектов.",
+        "en": "Our own Launcher created for easy downloading of our projects.",
     },
     "teamdesc-bblckk" : {
         "ru": "Лид дев & владелец 'reverse' ",
