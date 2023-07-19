@@ -10,27 +10,28 @@
     <link rel="stylesheet" href="src/style/fonts.css">
     <link rel="stylesheet" href="src/style/scrollbar.css">
     <!-- styles -->
-    <script src="src/js/websiteInfo.js"></script>
-    <script src="src/js/launcherInfo.js"></script>
-    <script src="src/js/stormInfo.js"></script>
 </head>
 <body>
     <header>
-        <a href="#about">About us</a>
-        <a href="#projects">Projects</a>
-        <a href="#team">Team</a>
-        <a href="#contacts">Contacts</a>
+        <div class="lang">
+            <select class="change-lang">
+                <option value="ru">Russian</option>
+                <option value="en" selected>English</option>
+            </select>
+        </div>
+        <a class="lng-about_us" href="#about">About us</a>
+        <a class="lng-projects" href="#projects">Projects</a>
+        <a class="lng-team" href="#team">Team</a>
+        <a class="lng-contacts" href="#contacts">Contacts</a>
     </header>
     <div class="blocks">
         <div class="about" id="about">
             <div class="terminal">
                 <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ about_us.txt </div>
-                <p class="text-p">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptate, asperiores sapiente eveniet mollitia placeat repudiandae libero unde hic! Neque, accusamus voluptatem iusto expedita deserunt numquam ad obcaecati soluta. Eveniet.
-                </p>
+                <p class="lng-about_us_desc"></p>
             </div>
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">
             <div class="terminal">
                 <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ projects.txt </div>
                 <div class="list">
@@ -38,17 +39,17 @@
                         <img class="listpic" src="src/img/Logo/TheOceanShore_MiniLogo.png"></img>
                         <div class="listinfo">
                             <div class="listname">The Ocean Shore | Game</div>
-                            <div class="listdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nobis officiis magnam mollitia, repellendus cum assumenda veritatis molestiae voluptates laudantium amet alias vero ut nihil inventore quam iste vitae nostrum.</div>
+                            <div class="lng-storm_desc"></div>
                         </div>
                         <div class="actbtns">
                             <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://github.com/bublickkk/StormImg/releases/download/stormapp/Storm.zip'">arrow_forward_ios</div>
                         </div>
                     </a>
                     <a>
-                        <img class="listpic" src="src/img/TeamMembers/geniy.jpg"></img>
+                        <img class="listpic" src="src/img/Logo/Reverse_Launcher.png"></img>
                         <div class="listinfo">
                             <div class="listname">Reverse Launcher | App</div>
-                            <div class="listdesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus asperiores accusamus nulla? Officiis delectus aut enim soluta hic libero nobis quae nemo excepturi, corporis numquam. In inventore minima dolorem?</div>
+                            <div class="lng-launcher_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus asperiores accusamus nulla? Officiis delectus aut enim soluta hic libero nobis quae nemo excepturi, corporis numquam. In inventore minima dolorem?</div>
                         </div>
                         <div class="actbtns">
                             <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://t.me/Kira_is_god'">arrow_forward_ios</div>
@@ -57,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="team">
+        <div class="team" id="team">
             <div class="terminal">
                 <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ team.txt </div>
                 <div class="list">
@@ -65,7 +66,7 @@
                         <img class="listpic" src="https://avatars.githubusercontent.com/u/72266338?v=4"></img>
                         <div class="listinfo">
                             <div class="listname">bublickk</div>
-                            <div class="listdesc">@CherryMerryy | Lead Dev & 'reverse' owner</div>
+                            <div class="listdesc">@CherryMerryy</div><div class="lng-teamdesc-bblckk"></div>
                         </div>
                         <div class="actbtns">
                             <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://t.me/CherryMerryy'">arrow_forward_ios</div>
@@ -75,7 +76,7 @@
                         <img class="listpic" src="src/img/TeamMembers/geniy.jpg"></img>
                         <div class="listinfo">
                             <div class="listname">geniy</div>
-                            <div class="listdesc">@Kira_is_god | Dev & 'reverse' owner</div>
+                            <div class="listdesc">@Kira_is_god</div><div class="lng-teamdesc-geniy"></div>
                         </div>
                         <div class="actbtns">
                             <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://t.me/Kira_is_god'">arrow_forward_ios</div>
@@ -85,7 +86,7 @@
                         <img class="listpic" src="src/img/TeamMembers/dead_bebrax.jpg"></img>
                         <div class="listinfo">
                             <div class="listname">dead_bebrax</div>
-                            <div class="listdesc">@dead_bebrax | Designer</div>
+                            <div class="listdesc">@dead_bebrax</div><div class="lng-teamdesc-dead_bebrax"></div>
                         </div>
                         <div class="actbtns">
                             <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://vk.com/dead_bebrax'">arrow_forward_ios</div>
@@ -95,17 +96,17 @@
                         <img class="listpic" src="src/img/TeamMembers/steven56.jpg"></img>
                         <div class="listinfo">
                             <div class="listname">steven56</div>
-                            <div class="listdesc">@steven56 | Dev & Designer</div>
+                            <div class="listdesc">@steven56</div><div class="lng-teamdesc-steven56"></div>
                         </div>
                         <div class="actbtns">
                             <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://vk.com/steven56'">arrow_forward_ios</div>
                         </div>
                     </a>
                     <a>
-                        <iframe class="listpic" src="src/img/TeamMembers/bebreef.jpg"></iframe>
+                        <img class="listpic" src="src/img/TeamMembers/bebreef.jpg"></img>
                         <div class="listinfo">
                             <div class="listname">bebreef</div>
-                            <div class="listdesc">@bebreef | Dev</div>
+                            <div class="listdesc">@bebreef</div><div class="lng-teamdesc-bebreef"></div>
                         </div>
                         <div class="actbtns">
                             <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://t.me/bebreef'">arrow_forward_ios</div>
@@ -116,7 +117,7 @@
                         <img class="listpic" src="src/img/TeamMembers/okokus.jpg"></img>
                         <div class="listinfo">
                             <div class="listname">okoka</div>
-                            <div class="listdesc">@okokus | Dev</div>
+                            <div class="listdesc">@okokus</div><div class="lng-teamdesc-okokus"></div>
                         </div>
                         <div class="actbtns">
                             <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://vk.com/okokus'">arrow_forward_ios</div>
@@ -125,7 +126,7 @@
                 </div>
             </div>
         </div>
-        <div class="contacts">
+        <div class="contacts" id="contacts">
             <div class="terminal">
                 <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ contacts.txt </div>
                 <p class="text-p">email:<a href="mailto:reverseent@proton.me">reverseent@proton.me</a></p>
@@ -137,5 +138,7 @@
         <div class="website-info">
         </div>
     </div>
+    <script src="src/js/lang.js"></script>
+    <script src="src/js/app.js"></script>
 </body>
 </html>
