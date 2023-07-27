@@ -1,6 +1,6 @@
 function getLauncherLatestVersion() {     
     var xmlHttp = new XMLHttpRequest(); 
-    var requestLink = "https://api.github.com/repos/Reeversee/ReverseLauncherBeta/releases/latest"; 
+    var requestLink = "https://api.github.com/repos/Reeversee/ReverseLauncher_Beta/releases/latest"; 
     xmlHttp.open("GET", requestLink, false); 
     xmlHttp.send(null); 
     var releaseInfo = JSON.parse(xmlHttp.responseText); 
@@ -9,7 +9,7 @@ function getLauncherLatestVersion() {
 
 function getLauncherPreRelease() {     
     var xmlHttp = new XMLHttpRequest(); 
-    var requestLink = "https://api.github.com/repos/Reeversee/ReverseLauncherBeta/releases/latest"; 
+    var requestLink = "https://api.github.com/repos/Reeversee/ReverseLauncher_Beta/releases/latest"; 
     xmlHttp.open("GET", requestLink, false); 
     xmlHttp.send(null); 
     var releaseInfo = JSON.parse(xmlHttp.responseText); 
