@@ -3,21 +3,25 @@ const LangArray = {
         "ru":"Домашняя",
         "ua":"Домашня",
         "en":"Home",
+        "cz":"Domácí",
     },
     "about_us" : {
         "ru": "О нас",
         "ua": "Про нас",
         "en": "About us",
+        "cz": "O nás",
     },
     "projects" : {
         "ru": "Проекты",
         "ua": "Проєкти",
         "en": "Projects",
+        "cz": "Projekty",
     },
     "team" : {
         "ru": "Команда",
         "ua": "Команда",
         "en": "Team",
+        "cz": "Tým",
     },
     "contacts" : {
         "ru": "Контакты",
