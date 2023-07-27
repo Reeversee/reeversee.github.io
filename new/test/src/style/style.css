@@ -58,7 +58,8 @@ select {
 }
 
 .text-p,
-.lng-about_us_desc {
+.lng-about_us_desc,
+.lng-sourcecode {
     background-color: #00000040;
     color: #fff;
     font-family: 'Fira Mono', monospace;
