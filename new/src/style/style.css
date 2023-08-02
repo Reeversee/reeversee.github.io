@@ -1,0 +1,200 @@
+@media screen and (min-width: 1200px) {
+    header {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    header {
+        font-size: 13px !important;
+    }
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1a1a1a;
+    font-family: 'Fira Mono', monospace;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #202020;
+    font-family: 'Fira Mono', monospace;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: greenyellow;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+select {
+    background-color: #202020;
+    color: #fff;
+    font-family: 'Fira Mono', monospace;
+    border-radius: 5px;
+}
+
+.text-p,
+.lng-about_us_desc {
+    background-color: #00000040;
+    color: #fff;
+    font-family: 'Fira Mono', monospace;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.text-p:hover,
+.lng-about_us_desc:hover {
+    color: greenyellow;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.lang {
+    display: flex;
+}
+
+.terminal-text {
+    color: #fff;
+    font-family: 'Fira Mono', monospace;
+}
+
+.git {
+  font-family: 'Fira Mono', monospace;
+  color: #fff;
+}
+
+/* team members styles */
+
+.list {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  -webkit-tap-highlight-color: #FFFFFF00;
+  -moz-tap-highlight-color: #FFFFFF00;
+}
+
+.list a {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 5px 0px;
+  padding: 5px;
+}
+
+.list a:hover {
+  background: #00000040;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #00000020;
+}
+
+.list a:hover .listbtn {
+  background: transparent;
+}
+
+.list a:hover .listpic:hover {
+  width: 100px;
+  height: 100px;
+}
+
+.listpic {
+  height: 50px;
+  width: 50px;
+  background: #FFFFFF10;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.listdesc,
+.lng-storm_desc,
+.lng-launcher_desc,
+.lng-teamdesc-bblckk,
+.lng-teamdesc-bebreef,
+.lng-teamdesc-geniy,
+.lng-teamdesc-steven56,
+.lng-teamdesc-dead_bebrax,
+.lng-teamdesc-okokus {
+  font-size: 10px;
+  color: #848484;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: auto;
+}
+
+.listname {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.listinfo {
+  height: auto;
+  color: white;
+  text-align: left;
+  color: white;
+  margin-left: 12px;
+  align-self: center;
+}
+
+.listbtn:active {color: #FFFFFF20;}
+
+.actbtns {
+  margin: auto 0 auto auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.listbtn {
+  padding: 10px;
+  background: #00000040;
+  border-radius: 100px;
+  margin: auto 0 auto auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* team members styles */
+
+/* blocks styles */
+.about,
+.projects,
+.team,
+.contacts,
+.website_info,
+.index-error {
+    background-color: #202020;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+/* blocks styles */

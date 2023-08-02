@@ -6,7 +6,7 @@ const LangArray = {
         "en":"Home",
         "cz":"Domácí",
         "by":"Хатні",
-    },
+    }, //
     // descriptions
     "about_us" : {
         "ru": "О нас",
@@ -56,7 +56,7 @@ const LangArray = {
         "en": "Our own Launcher created for easy downloading of our projects.",
         "cz": "Náš vlastní spouštěč vytvořený pro snadné stahování našich projektů.",
         "by": "Наш уласны лаунчер створаны для зручнага запампоўкі нашых праектаў.",
-    },
+    }, //
     // team descriptions
     "teamdesc-bblckk" : {
         "ru": "Ведущий разработчик & владелец 'Reverse'",
@@ -99,12 +99,27 @@ const LangArray = {
         "en": "Dev",
         "cz": "Dev",
         "by": "Распрацоўшчык & уладальнік пабліка 'ОКОКА'",
-    },
+    }, //
     "sourcecode" : {
         "ru": "Исходный код доступен на GitHub",
         "ua": "Вихідний код доступний на GitHub",
         "en": "Source code available on GitHub",
         "cz": "Zdrojový kód je k dispozici na GitHub",
         "by": "Зыходны код даступны на GitHub",
+    },
+    // index page
+    "error" : {
+        "ru": "Упс...",
+        "ua": "Упс...",
+        "en": "Oops...",
+        "cz": "Oops...",
+        "by": "Упс...",
+    },
+    "text_error" : {
+        "ru": "Данная страница больше неактуальна.\nПожалуйста перейдите на новую версию страницу",
+        "ua": "Ця сторінка більше неактуальна.\nБудь ласка перейдіть на нову версію сторінку",
+        "en": "This page is no longer relevant.\nPlease go to the new version of the page",
+        "cz": "Tato stránka již není relevantní.\n Přejděte prosím na novou verzi stránky",
+        "by": "Дадзеная старонка больш не актуальная.\nКалі ласка перайдзіце на новую версію старонку",
     },
 }

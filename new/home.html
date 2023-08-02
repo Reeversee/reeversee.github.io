@@ -1,117 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Home</title>
     <!-- styles -->
-    <link rel="stylesheet" href="src/style/style-new.css">
-    <link rel="stylesheet" href="src/style/adaptation/adaptation.css">
-    <link rel="stylesheet" href="src/style/tools/product_headers.css">
-    <link rel="stylesheet" href="src/style/tools/default.css">
-    <link rel="stylesheet" href="src/style/tools/footer.css">
-    <link rel="stylesheet" href="src/style/tools/header.css">
-    <link rel="stylesheet" href="src/style/tools/scrollbar.css">
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/fonts.css">
+    <link rel="stylesheet" href="src/style/scrollbar.css">
     <!-- styles -->
 </head>
 <body>
     <header>
-        <ul class="nav-bar-b">
-            <img src="src/img/ReverseEntertainment_Smalllogo_VK.png" alt="" width="64px" height="64px">
-            <li class="active">
-               <a class="nav-btn" href="home.html">home</a>
-            </li>
-            <li>
-                <a class="nav-btn" href="news.html">news</a>
-            </li>
-            <li>
-                <a class="nav-btn-s-rg" href="products/reversegram.html">reverseGram</a>
-            </li>
-            <li>
-                <a class="nav-btn" href="test/home.html">Check out new website version</a>
-            </li>
-        </ul>
+        <div class="lang">
+            <select class="change-lang">
+                <option value="en" selected>🇺🇸</option>
+                <option value="ru">🇷🇺</option>
+                <option value="ua">🇺🇦</option>
+                <option value="cz">🇨🇿</option>
+                <option value="by">🇧🇾</option>
+            </select>
+        </div>
+        <a class="lng-about_us" href="#about"></a>
+        <a class="lng-projects" href="#projects"></a>
+        <a class="lng-team" href="#team"></a>
+        <a class="lng-contacts" href="#contacts"></a>
     </header>
-    <div class="product-news-block">
-        <div class="product-info">
-            <div class="product-info-h">
-                <!-- empty div -->
-                <div class="product-card" id="product_--">
-                    <h1 class="product-header-empty">
-                        ---
-                    </h1>
-                </div>
-                <!-- empty div end -->
-                <!-- rG div -->
-                <div class="product-card" id="product_RG">
-                    <h1 class="product-header_RL">
-                        reverseGram
-                    </h1>
-                    <p class="product-text">
-                        Unofficial Telegram client based on Android sources with new features.
-                    </p>
-                    <a class="product-link" href="products/reversegram.html">View</a>
-                </div>
-                <!-- RL div end -->
-                <!-- RL div -->
-                <div class="product-card" id="product_RL">
-                    <h1 class="product-header_RL">
-                        Reverse Launcher
-                    </h1>
-                    <p class="product-text">
-                        Our beautiful Launcher where you can get all of our games!
-                    </p>
-                    <a class="product-link" href="https://bit.ly/3yBhXvo">Download</a>
-                </div>
-                <!-- RL div end -->
-                <!-- ST div -->
-                <div class="product-card" id="product_ST">
-                    <h1 class="product-header_ST">
-                        The Ocean Shore
-                    </h1>
-                    <p class="product-text">
-                        The robot war began on The Ocean Shore... 
-                    </p>
-                    <a class="product-link" href="game/the-ocean-storm.html">Visit game page</a>
-                </div>
-                <!-- ST div end -->
-                <!-- DM div -->
-                <div class="product-card" id="product_DM">
-                    <h1 class="product-header_DM">
-                        Oblivion of Dream
-                    </h1>
-                    <p class="product-text">
-                        More information will be available later!
-                    </p>
-                </div>
-                <!-- DM div end -->
-                <!-- NSY div -->
-                <div class="product-card" id="product_NSY">
-                    <h1 class="product-header_NSY">
-                        Never Say Yes
-                    </h1>
-                    <p class="product-text">
-                        More information will be available later!
-                    </p>
-                </div>
-                <!-- NSY div end -->
+    <div class="blocks">
+        <script src="src/js/projectsInfo/stormInfo.js"></script>
+        <script src="src/js/projectsInfo/launcherInfo.js"></script>
+        <div class="about" id="about">
+            <div class="terminal">
+                <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ about_us.txt </div>
+                <p class="lng-about_us_desc"></p>
             </div>
         </div>
-        <div class="news">
-            <div class="news-h">
-                <div class="news-card" id="news_00">
-                    <h1 class="r-header">
-                        news
-                    </h1>
-                    <p class="r-text">
-                        news available on this page:<br>
-                    </p>
-                    <a class="btn" href="news.html">link</a>
+        <div class="projects" id="projects">
+            <div class="terminal">
+                <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ projects.txt </div>
+                <div class="list">
+                    <a>
+                        <img class="listpic" src="src/img/Logo/TheOceanShore_MiniLogo.png"/>
+                        <div class="listinfo">
+                            <div class="listname" id="storm_version">The Ocean Shore | Game |</div>
+                            <div class="lng-storm_desc"></div>
+                        </div>
+                        <div class="actbtns">
+                            <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://github.com/bublickkk/StormImg/releases/download/stormapp/Storm.zip'">arrow_forward_ios</div>
+                        </div>
+                    </a>
+                    <a>
+                        <img class="listpic" src="src/img/Logo/Reverse_Launcher.png"/>
+                        <div class="listinfo">
+                            <div class="listname" id="launcher_version">Reverse Launcher | App |</div>
+                            <div class="lng-launcher_desc"></div>
+                        </div>
+                        <div class="actbtns">
+                            <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://t.me/Kira_is_god'">arrow_forward_ios</div>
+                        </div>
+                    </a>
                 </div>
             </div>
+        </div>
+        <div class="team" id="team">
+            <div class="terminal">
+                <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ team.txt </div>
+                <div class="list">
+                    <a>
+                        <img class="listpic" src="https://avatars.githubusercontent.com/u/72266338?v=4"/>
+                        <div class="listinfo">
+                            <div class="listname">bublickk</div>
+                            <div class="listdesc">@CherryMerryy | TG</div><div class="lng-teamdesc-bblckk"></div>
+                        </div>
+                        <div class="actbtns">
+                            <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://t.me/CherryMerryy'">arrow_forward_ios</div>
+                        </div>
+                    </a>
+                    <a>
+                        <img class="listpic" src="src/img/TeamMembers/geniy.jpg"/>
+                        <div class="listinfo">
+                            <div class="listname">geniy</div>
+                            <div class="listdesc">@Kira_is_god | TG</div><div class="lng-teamdesc-geniy"></div>
+                        </div>
+                        <div class="actbtns">
+                            <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://t.me/Kira_is_god'">arrow_forward_ios</div>
+                        </div>
+                    </a>
+                    <a>
+                        <img class="listpic" src="src/img/TeamMembers/dead_bebrax.jpg"/>
+                        <div class="listinfo">
+                            <div class="listname">dead_bebrax</div>
+                            <div class="listdesc">@dead_bebrax | VK</div><div class="lng-teamdesc-dead_bebrax"></div>
+                        </div>
+                        <div class="actbtns">
+                            <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://vk.com/dead_bebrax'">arrow_forward_ios</div>
+                        </div>
+                    </a>
+                    <a>
+                        <img class="listpic" src="src/img/TeamMembers/steven56.jpg"/>
+                        <div class="listinfo">
+                            <div class="listname">steven56</div>
+                            <div class="listdesc">@steven56 | VK</div><div class="lng-teamdesc-steven56"></div>
+                        </div>
+                        <div class="actbtns">
+                            <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://vk.com/steven56'">arrow_forward_ios</div>
+                        </div>
+                    </a>
+                    <a>
+                        <img class="listpic" src="src/img/TeamMembers/bebreef.jpg"/>
+                        <div class="listinfo">
+                            <div class="listname">bebreef</div>
+                            <div class="listdesc">@bebreef | TG & VK</div><div class="lng-teamdesc-bebreef"></div>
+                        </div>
+                        <div class="actbtns">
+                            <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://t.me/bebreef'">arrow_forward_ios</div>
+                        </div>
+                    </a>
+                    <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ collaboration.txt </div>
+                    <a>
+                        <img class="listpic" src="src/img/TeamMembers/okokus.jpg"/>
+                        <div class="listinfo">
+                            <div class="listname">okoka</div>
+                            <div class="listdesc">@okokus | VK</div><div class="lng-teamdesc-okokus"></div>
+                        </div>
+                        <div class="actbtns">
+                            <div class="listbtn material-icons" href="javascript://" onclick="location.href='https://vk.com/okokus'">arrow_forward_ios</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contacts" id="contacts">
+            <div class="terminal">
+                <div class="terminal-text"> <span style="color: greenyellow">reverse@ubuntu</span>:<span style="color: cornflowerblue">~</span>$ contacts.txt </div>
+                <p class="text-p">email:<a href="mailto:reverseent@proton.me">reverseent@proton.me</a></p>
+                <p class="text-p">Telegram:<a href="https://t.me/reverseofficial">@reverseentofficial</a></p>
+                <p class="text-p">VK:<a href="https://vk.com/reverseentofficial">@reverseentofficial</a></p>
+                <p class="text-p">Twitter:<a href="https://twitter.com/reverseentoffi">@reverseentoffi</a></p>
+                <p class="text-p">YouTube:<a href="https://www.youtube.com/@reversegamestudio">@reversegamestudio</a></p>
+            </div>
+        </div>
+        <div class="website-info">
         </div>
     </div>
-    <iframe class="frame_footer" src="src/tools/footer.html" width="1260px" height="420px" frameborder="0"></iframe>
+    <!-- scripts -->
+    <script src="src/js/websiteInfo.js"></script>
+    <script src="src/js/strings.js"></script>
+    <script src="src/js/app.js"></script>
+    <!-- scripts -->
 </body>
+<footer>
+    <div class="website_info">
+        <p class="text-p">
+            Site info:
+        </p>
+        <p class="text-p" id="version_body_author">
+            <script>
+                getWebSiteInfo()
+            </script>
+        </p>
+    </div>
+</footer>
 </html>
