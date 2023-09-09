@@ -43,20 +43,13 @@ const LangArray = {
         "cz": "My, Reverse, vyvíjíme různý software i hry. V současné době vyvíjíme několik projektů. Všechny procesy můžete sledovat na našich sociálních sítích v záložce #kontakty.",
         "by": "Мы, Reverse, распрацоўваем розны софт, а таксама гульні. У дадзены момант у нас вядзецца распрацоўка некалькіх праектаў. Сачыць за ўсімі працэсамі вы можаце ў нашых соц. сетках ва ўкладцы #contacts",
     },
-    "storm_desc" : {
-        "ru": "Мультиплеерный шутер разработанный на игровом движке Unreal Engine 5.2",
-        "ua": "Мультиплеєрний шутер розроблений на ігровому рушії Unreal Engine 5.2",
-        "en": "Multiplayer shooter developed on Unreal Engine 5.2 engine",
-        "cz": "Střílečka pro více hráčů vyvinutá na enginu Unreal Engine 5.2",
-        "by": "Мультыплэерны шутэр распрацаваны на гульнявым рухавічку Unreal Engine 5.2",
+    "shangii" : {
+            "ru":"...",
+            "ua":"...",
+            "en": "...",
+            "cz": "...",
+            "by": "..."
     },
-    "launcher_desc" : {
-        "ru": "Наш собственный лаунчер созданный для удобного скачивания наших проектов.",
-        "ua": "Наш власний лаунчер створений для зручного скачування наших проєктів.",
-        "en": "Our own Launcher created for easy downloading of our projects.",
-        "cz": "Náš vlastní spouštěč vytvořený pro snadné stahování našich projektů.",
-        "by": "Наш уласны лаунчер створаны для зручнага запампоўкі нашых праектаў.",
-    }, //
     // team descriptions
     "teamdesc-bblckk" : {
         "ru": "Ведущий разработчик & владелец 'Reverse'",
