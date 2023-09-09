@@ -38,5 +38,5 @@ function getWebSiteAuthor() {
 function getWebSiteInfo() {
     var version = getWebSiteLatestVersion();
     var author = getWebSiteAuthor();
-    document.getElementById("version_body_author").innerHTML = '| v' + version + getBody() + ' | ' + 'Committed by ' + author + ' |';
+    document.getElementById("version_body_author").innerHTML = '| v' + version + ' | ' + 'Committed by ' + author + ' |';
 }
