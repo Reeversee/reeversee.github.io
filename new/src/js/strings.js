@@ -65,13 +65,6 @@ const LangArray = {
         "cz": "Dev & 'Reverse' co-owner",
         "by": "Распрацоўшчык & саўладальнік 'Reverse'",
     },
-    "teamdesc-dead_bebrax" : {
-        "ru": "Дизайнер",
-        "ua": "Дизайнер",
-        "en": "Designer",
-        "cz": "Designer",
-        "by": "Дызайнер",
-    },
     "teamdesc-steven56" : {
         "ru": "Разработчик & Дизайнер",
         "ua": "Розробник & Дизайнер",
@@ -93,13 +86,6 @@ const LangArray = {
         "cz": "Dev",
         "by": "Распрацоўшчык & уладальнік пабліка 'ОКОКА'",
     }, //
-    "sourcecode" : {
-        "ru": "Исходный код доступен на GitHub",
-        "ua": "Вихідний код доступний на GitHub",
-        "en": "Source code available on GitHub",
-        "cz": "Zdrojový kód je k dispozici na GitHub",
-        "by": "Зыходны код даступны на GitHub",
-    },
     // index page
     "error" : {
         "ru": "Упс...",
