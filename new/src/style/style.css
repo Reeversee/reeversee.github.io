@@ -25,6 +25,7 @@ body {
   margin: 0%;
   background-image: url(../img/Reverse/ReverseNewLogoHeader_3.png);
   background-color: black;
+  background-attachment: fixed;
   font-family: 'Fira Mono', monospace;
 }
 
