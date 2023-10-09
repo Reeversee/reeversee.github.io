@@ -37,11 +37,11 @@ const LangArray = {
         "by": "Кантакт",
     },
     "about_us_desc" : {
-        "ru": "Мы, Reverse, разрабатываем различный софт, а также игры. В данный момент у нас ведется разработка нескольких проектов. Следить за всеми процессами вы можете в наших соц. сетях во вкладке #contacts",
-        "ua": "Ми, Reverse, розробляємо різний софт, а також ігри. Наразі у нас триває розробка кількох проєктів. Стежити за всіма процесами ви можете в наших соц. мережах у вкладці #contacts",
-        "en": "We, Reverse, develop various software as well as games. At the moment we are developing several projects. You can follow all the processes in our social networks in the #contacts tab.",
-        "cz": "My, Reverse, vyvíjíme různý software i hry. V současné době vyvíjíme několik projektů. Všechny procesy můžete sledovat na našich sociálních sítích v záložce #kontakty.",
-        "by": "Мы, Reverse, распрацоўваем розны софт, а таксама гульні. У дадзены момант у нас вядзецца распрацоўка некалькіх праектаў. Сачыць за ўсімі працэсамі вы можаце ў нашых соц. сетках ва ўкладцы #contacts",
+        "ru": "Мы, Reverse, разрабатываем игры. В данный момент у нас ведется разработка двух проектов. Следить за всеми процессами вы можете в наших соц. сетях во вкладке #contacts",
+        "ua": "Ми, Reverse, розробляємо ігри. Наразі у нас ведеться розробка двох проєктів. Стежити за всіма процесами ви можете в наших соц. мережах у вкладці #contacts",
+        "en": "We, Reverse, develop games. At the moment we have two projects under development. You can follow all the processes in our social networks in the #contacts tab",
+        "cz": "My, Reverse, vyvíjíme hry. V současné době vyvíjíme dva projekty. Všechny procesy můžete sledovat na našich sociálních sítích v záložce #kontakty",
+        "by": "Мы, Reverse, распрацоўваем гульні. У дадзены момант у нас вядзецца распрацоўка двух праектаў. Сачыць за ўсімі працэсамі вы можаце ў нашых соц. сетках ва ўкладцы #contacts",
     },
     "shangii" : {
             "ru":"...",
@@ -49,6 +49,13 @@ const LangArray = {
             "en": "...",
             "cz": "...",
             "by": "..."
+    },
+    "ve" : {
+        "ru":"...",
+        "ua":"...",
+        "en": "...",
+        "cz": "...",
+        "by": "..."
     },
     // team descriptions
     "teamdesc-bblckk" : {

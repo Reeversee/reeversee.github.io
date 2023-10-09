@@ -61,6 +61,13 @@ select {
     border-radius: 5px;
 }
 
+select:hover {
+  background-color: #222222;
+  color: #fff;
+  font-family: 'Fira Mono', monospace;
+  border-radius: 5px;
+}
+
 .text-p,
 .lng-about_us_desc {
     background-color: #00000040;
