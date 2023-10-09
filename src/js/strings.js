@@ -51,11 +51,11 @@ const LangArray = {
             "by": "..."
     },
     "ve" : {
-        "ru":"...",
-        "ua":"...",
-        "en": "...",
-        "cz": "...",
-        "by": "..."
+        "ru":"Модификация Unreal Engine 5",
+        "ua":"Модифікація Unreal Engine 5",
+        "en": "Unreal Engine 5 modification",
+        "cz": "Úprava Unreal Engine 5",
+        "by": "Мадыфікацыя Unreal Engine 5"
     },
     // team descriptions
     "teamdesc-bblckk" : {
