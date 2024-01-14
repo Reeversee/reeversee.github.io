@@ -37,11 +37,11 @@ const LangArray = {
         "by": "Кантакт",
     },
     "about_us_desc" : {
-        "ru": "Мы, Reverse, разрабатываем игры. В данный момент у нас ведется разработка двух проектов. Следить за всеми процессами вы можете в наших соц. сетях во вкладке #contacts",
-        "ua": "Ми, Reverse, розробляємо ігри. Наразі у нас ведеться розробка двох проєктів. Стежити за всіма процесами ви можете в наших соц. мережах у вкладці #contacts",
-        "en": "We, Reverse, develop games. At the moment we have two projects under development. You can follow all the processes in our social networks in the #contacts tab",
-        "cz": "My, Reverse, vyvíjíme hry. V současné době vyvíjíme dva projekty. Všechny procesy můžete sledovat na našich sociálních sítích v záložce #kontakty",
-        "by": "Мы, Reverse, распрацоўваем гульні. У дадзены момант у нас вядзецца распрацоўка двух праектаў. Сачыць за ўсімі працэсамі вы можаце ў нашых соц. сетках ва ўкладцы #contacts",
+        "ru": "Теперь мы никто.",
+        "ua": "Тепер ми ніхто.",
+        "en": "We're nobody now.",
+        "cz": "We're nobody now.",
+        "by": "еперь мы никто.",
     },
     "shangii" : {
             "ru":"...",
