@@ -1,9 +1,9 @@
 const LangArray = {
     // page title
     "title" : {
-        "ru":"Домашняя",
-        "en":"Home",
-        "by":"Хатні",
+        "ru": "Nifest",
+        "en": "Nifest",
+        "by": "Nifest",
     },
     "ve" : {
         "ru": "Модификация Unreal Engine 5",
