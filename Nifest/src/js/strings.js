@@ -4,32 +4,6 @@ const LangArray = {
         "ru":"Домашняя",
         "en":"Home",
         "by":"Хатні",
-    }, //
-    // descriptions
-    "about_us" : {
-        "ru": "О нас",
-        "en": "About us",
-        "by": "Пра нас",
-    },
-    "projects" : {
-        "ru": "Проекты",
-        "en": "Projects",
-        "by": "Праект",
-    },
-    "team" : {
-        "ru": "Команда",
-        "en": "Team",
-        "by": "Каманда",
-    },
-    "contacts" : {
-        "ru": "Контакты",
-        "en": "Contacts",
-        "by": "Кантакт",
-    },
-    "about_us_desc" : {
-        "ru": "😊",
-        "en": "😊",
-        "by": "😊",
     },
     "ve" : {
         "ru": "Модификация Unreal Engine 5",
@@ -40,12 +14,6 @@ const LangArray = {
         "ru": "...",
         "en": "...",
         "by": "..."
-    },
-    // team descriptions
-    "teamdesc-cherrymerry" : {
-        "ru": "Ведущий разработчик & владелец 'Reverse'",
-        "en": "Lead Dev & 'Reverse' owner",
-        "by": "Вядучы распрацоўшчык & уладальнік 'Reverse'",
     },
     // index page
     "error" : {
